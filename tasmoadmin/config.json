@@ -1,9 +1,9 @@
 {
-  "name": "TasmoAdmin",
+  "name": "IPRO Admin",
   "version": "0.13.1",
   "slug": "sonweb",
-  "description": "Centrally manage all your Sonoff-Tasmota devices",
-  "url": "https://github.com/hassio-addons/addon-tasmoadmin",
+  "description": "Centrally manage all your IPro Smart devices",
+  "url": "https://github.com/Ashustar/addon-iproadmin",
   "webui": "[PROTO:ssl]://[HOST]:[PORT:9541]",
   "startup": "system",
   "init": false,
@@ -24,7 +24,7 @@
     "9541/tcp": 9541
   },
   "ports_description": {
-    "9541/tcp": "TasmoAdmin web interface"
+    "9541/tcp": "IPRO Admin web interface"
   },
   "options": {
     "ssl": true,
