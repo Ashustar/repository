@@ -1,18 +1,11 @@
-# Home Assistant Community Add-on: TasmoAdmin
+# Home Assistant Community Add-on: IPRO ADMIN
 
 [![Release][release-shield]][release] ![Project Stage][project-stage-shield] ![Project Maintenance][maintenance-shield]
 
-[![Discord][discord-shield]][discord] [![Community Forum][forum-shield]][forum]
-
-[![Sponsor Frenck via GitHub Sponsors][github-sponsors-shield]][github-sponsors]
-
-[![Support Frenck on Patreon][patreon-shield]][patreon]
-
-Centrally manage all your Sonoff-Tasmota devices.
 
 ## About
 
-TasmoAdmin (formerly known as SonWEB) is an administrative web interface to
+IPRO ADMIN (formerly known as SonWEB) is an administrative web interface to
 manage all your Sonoff-Tasmota flashed devices centrally.
 Some of its features:
 
@@ -22,7 +15,7 @@ Some of its features:
 - Send out firmware updates over the air to one or more your devices at once
 - Can automatically download the latest firmware for you
 
-![TasmoAdmin screenshot][screenshot]
+![IPRO ADMIN screenshot][screenshot]
 
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [discord]: https://discord.me/hassioaddons
