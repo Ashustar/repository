@@ -1,6 +1,6 @@
-# Home Assistant Community Add-on: TasmoAdmin
+# Home Assistant Community Add-on: IPRO ADMIN
 
-TasmoAdmin (formerly known as SonWEB) is an administrative web interface to
+IPRO ADMIN (formerly known as SonWEB) is an administrative web interface to
 manage all your Sonoff-Tasmota flashed devices centrally.
 Some of its features:
 
@@ -15,10 +15,10 @@ Some of its features:
 The installation of this add-on is pretty straightforward and not different in
 comparison to installing any other Home Assistant add-on.
 
-1. Search for the "TasmoAdmin" add-on in the Supervisor add-on store.
-1. Install the "TasmoAdmin" add-on.
-1. Start the "TasmoAdmin" add-on.
-1. Check the logs of the “TasmoAdmin” add-on to see if everything went well.
+1. Search for the "IPRO ADMIN" add-on in the Supervisor add-on store.
+1. Install the "IPRO ADMIN" add-on.
+1. Start the "IPRO ADMIN" add-on.
+1. Check the logs of the “IPRO ADMIN” add-on to see if everything went well.
 
 ## Configuration
 
@@ -56,7 +56,7 @@ you are troubleshooting.
 
 ### Option: `ssl`
 
-Enables/Disables SSL (HTTPS) on the web interface of TasmoAdmin
+Enables/Disables SSL (HTTPS) on the web interface of IPRO ADMIN
 Panel. Set it `true` to enable it, `false` otherwise.
 
 **Note** Tasmota does not support OTA via SSL
@@ -79,7 +79,7 @@ Set this option too `false` to disable IPv6 support.
 
 ## Embedding into Home Assistant
 
-It is possible to embed the TasmoAdmin interface directly into Home Assistant,
+It is possible to embed the IPRO ADMIN interface directly into Home Assistant,
 allowing you to access it through the Home Assistant frontend.
 
 Home Assistant provides the `panel_iframe` integration, for these purposes.
@@ -89,7 +89,7 @@ Example configuration:
 ```yaml
 panel_iframe:
   tasmoadmin:
-    title: TasmoAdmin
+    title: IPRO ADMIN
     icon: mdi:lightbulb-on
     url: http://addres.to.your.hass.io:9541
 ```
@@ -125,7 +125,7 @@ You could also [open an issue here][issue] GitHub.
 
 ## Authors & contributors
 
-The original setup of this repository is by [Franck Nijhof][frenck].
+The original setup of this repository is by [SPELEC].
 
 For a full list of all authors and contributors,
 check [the contributor's page][contributors].
@@ -134,7 +134,7 @@ check [the contributor's page][contributors].
 
 MIT License
 
-Copyright (c) 2018-2020 Franck Nijhof
+Copyright (c) 2018-2020 SPELEC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
